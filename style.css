@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+header {
+  text-align: center;
+  weight: 20%;
+  height: 20%;
+  background-color: aliceblue;
+  margin: 3px;
+  padding: 3px;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+header h1 {
+  color: #3C72F9;
+  border-style: dotted;
+  border-bottom-radius: 5px 5px 5px 5px;
+  border-width: thick;
+  border-color: #587BFF;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+.coverphoto {
+  text-align: center;
+  weight: auto;
+  height: auto;
+}
+header a:link {
+  color: #4B8FFF;
+  text-decoration: underline;
+}
+header a:visited {
+  color: #F96366;
+  text-decoration: underline;
+}
+header a:active {
+  color: antiquewhite;
+}
+header a:hover {
+  color: blue;
+}
+.coverphoto {
+  text-align: center;
+  height: auto;
+  weight: auto;
+}
+.intropicture {
+  weight: auto;
+  height: auto;
+}
+main {
+  text-align: left;
+  weight: 20%;
+  height: 20%;
+  background-color: #C5E2FF;
+  margin: 5px;
+  border: 5px;
+  padding: 5px;
+}
+main h3 {
+  font-family: "細明體", "細明體_HKSCS";
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+article {
+  weight: 60%;
+  height: 60%;
+  background-color: #E2EDFB;
+  padding: inherit;
+  margin: 3px;
+  border: 5px;
+}
+article h2 {
+  color: #6B9CFF;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+  background-color: #A5B6FF;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(300deg, rgba(255, 255, 255, 1.00) 0%, rgba(75, 193, 255, 1.00) 100%, rgba(0, 80, 255, 1.00) 100%);
+  background-image: -moz-linear-gradient(300deg, rgba(255, 255, 255, 1.00) 0%, rgba(75, 193, 255, 1.00) 100%, rgba(0, 80, 255, 1.00) 100%);
+  background-image: -o-linear-gradient(300deg, rgba(255, 255, 255, 1.00) 0%, rgba(75, 193, 255, 1.00) 100%, rgba(0, 80, 255, 1.00) 100%);
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 1.00) 0%, rgba(75, 193, 255, 1.00) 100%, rgba(0, 80, 255, 1.00) 100%);
+  border-style: dotted;
+  border-width:3px;
+  padding: 7px;
+  margin: 5px;
+}
+article h3 {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color:#4454FF;
+	font-size: 22px;
+	text-decoration:underline;
+	text-decoration-color:#50A0FF;
+}
+article p {
+  text-align: center;
+  text-decoration: overline;
+  text-decoration-color: #FF6EDA;
+}
+.instruments {
+  display: flex;
+  flex-direction: column reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  grid-template-rows: 300px 200px;
+}
+.jazzbox {
+  display: flex;
+  flex-direction: column reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  grid-template-rows: 300px 200px;
+}
+article ol{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align:left;
+	line-height: 1.6;
+}
+article li{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align:left;
+	line-height: 1.6;
+}
+artical li{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-align:left;
+}
+footer {
+  weight: 20%;
+  height: 20%;
+  text-size: 12px;
+  background-color: #CBDAFF;
+  padding: 3px;
+  margin: 3px;
+  border: 3px;
+  text-align: center;
+}
